@@ -6,8 +6,9 @@ class Solution {
         if(digits[i] < 9) {
             digits[i]++;
             return digits;
-        }
+        } else {
         digits[i] = 0;
+        }
        }
        int[] newDigits = new int[n+1];
        newDigits[0] = 1;
